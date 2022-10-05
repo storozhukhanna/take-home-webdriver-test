@@ -16,7 +16,7 @@
 
     `docker run -d -p 7080:5000 gprestes/the-internet`
   
-3. Set the following BaseUrl for your tests:
+3. Set the following BaseUrl for your com.dotdash.tests:
 
    `http://localhost:7080`
    
@@ -46,9 +46,9 @@
 ## Submission Rubrics
 
 ### General Requirements
-1. All tests should contain @Test annotation.
-2. All tests should provide a setup and tear down mechanism that closes the browser.
-3. All tests should run successfully from IDE. Provide a way to run tests on unix based OS.
+1. All com.dotdash.tests should contain @Test annotation.
+2. All com.dotdash.tests should provide a setup and tear down mechanism that closes the browser.
+3. All com.dotdash.tests should run successfully from IDE. Provide a way to run com.dotdash.tests on unix based OS.
 
 
 ### Test Specific Rubrics
